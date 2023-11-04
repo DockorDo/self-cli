@@ -1,0 +1,22 @@
+{
+  "name": "self-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "my-cli": "self-cli/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"hello world\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^3.2.0",
+    "commander": "^11.1.0",
+    "download-github-repo": "^0.1.4",
+    "shelljs": "^0.8.5"
+  }
+}
